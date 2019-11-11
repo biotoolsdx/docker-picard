@@ -10,7 +10,7 @@ ARG picard_version=2.19.2
 RUN apt-get update && \
     apt-get install --yes openjdk-8-jdk wget r-base && \
     cd /usr/local/bin && \
-    wget https://github.com/broadinstitute/picard/releases/download/$VERSION/picard.jar && \
+    wget https://github.com/broadinstitute/picard/releases/download/$picard_version/picard.jar && \
     chmod +x picard.jar
 
 COPY picard.sh /usr/local/bin/picard
