@@ -14,7 +14,7 @@ on:
 
 
 env:
-  IMAGE_NAME: bwa
+  IMAGE_NAME: picard
   DOCKER_HUB_REP_NAME: biotoolsdx
 
 
